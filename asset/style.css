@@ -6,32 +6,42 @@
 
 nav{
     display: grid;
-    grid-template-columns: 20% 60% 20%;
-    margin-top: 3em;
+    grid-template-columns: 30% 50% 20%;
+    margin-top: 2em;
 }
 
 .navImg{
     width: 20vw;
     height: 10vw;
-    background: url('./bd886d7ccc6f8dd8db17e841233c9656.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 2em; 
+    color: blue;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+}
+
+span{
+    color: orange;
+    font-family: 'Poppins', sans-serif;
 }
 
 ul{
     display: grid;
-    grid-template-columns: repeat(5,20%);
+    grid-template-columns: repeat(6,20%);
     list-style-type: none;
     text-align: center;
     margin-top: 3em;
 }
 
 nav button{
-    padding: 2px;
-    border-radius: 2000px;
+    padding: 10px 30px;
+    border-radius: 32px;;
     background: white;
-    border: none;
     text-align: center;
+}
+
+li a{
+    text-decoration: none;
 }
 
 .showcase{
@@ -42,8 +52,12 @@ nav button{
 }
 
 .showcaseText{
-    width: 50%;
-    margin-left: 30%;
+    width: 80%;
+    margin-left: 20%;
+}
+
+.showcaseText h1{
+    margin-bottom: 1em
 }
 
 .btn :nth-child(1){
@@ -63,40 +77,67 @@ nav button{
     width: 50vw;
     height: 30vw;
     background: url('./photo-1531545514256-b1400bc00f31.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 2000px;
+    margin-left: 1em;
 }
 
 .how{
     text-align: center;
     margin-top: 90px;
+    width: 50%;
+    margin-left: 29%;
 }
 
 .beta{
     display: grid;
-    grid-template-columns: repeat(4,22%);
+    grid-template-columns: repeat(4,25.5%);
+    margin-top: 1em;
 }
 
 .betaText{
-    text-align: center;
     margin-top: 5em;
     margin-left: 60px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin: 20px;
 }
 
 .betaText h1{
     background: rgba(15, 104, 131, 0.562);
     border-radius: 9000px;
+    width: 80%;
+    padding: 2px;
 }
 
-.betaText h2{
+.betaText h1:nth-child(2){
     background: rgba(160, 24, 108, 0.493);
     border-radius: 9000px;
+    width: 80%;
 }
 
-.betaText h3{
+.betaText h1:nth-child(3){
     background: rgba(116, 27, 108, 0.562);
     border-radius: 9000px;
+    width: 80%;
+    
 }
 
-.betaText h4{
+.betaText h1 :nth-child(4){
     background: rgba(38, 151, 44, 0.39);
     border-radius: 9000px;
+    width: 80%;
+}
+
+.betaText h1:nth-child(2){
+    background: white;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.betaText h1:nth-child(1){
+    text-align: center;
+    padding: 10px;
 }
